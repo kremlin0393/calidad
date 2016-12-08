@@ -1,0 +1,75 @@
+Centro de Salud - Raul Patrucco Puig, Jirón Huanta
+Lima 15001
+-12.053051, -77.022892
+
+Hospital Guillermo Almenara Irigoyen, Grau 800
+La Victoria
+-12.059567, -77.022262
+
+Policlínico EsSalud San Luis, Avenida Circunvalación 2161
+San Luis 15022
+-12.073229, -76.991982
+
+Hospital Nacional Dos De Mayo, Avenida Miguel Grau 13
+Distrito de Lima
+-12.055959, -77.015671
+
+Hospital de la Solidaridad, Jirón Camana 700
+Distrito de Lima 15001
+-12.049294, -77.035289
+
+Hospital Nacional Arzobispo Loayza, Avenida Alfonso Ugarte 848
+Distrito de Lima
+-12.049813, -77.042920
+
+Hospital Nacional Docente Madre Niño San Bartolome, Avenida Alfonso Ugarte 825
+Distrito de Lima 15001
+-12.049902, -77.041927
+
+Instituto Nacional de Ciencias Neurológicas
+Lima
+-12.045472, -77.015962
+
+Centro Médico Naval "Cirujano Mayor Santiago Távara"
+Bellavista 07006
+-12.059623, -77.090261
+
+Clínica Universitaria UNMSM, Amezaga 44
+Distrito de Lima 15081
+-12.055838, -77.082258
+
+Hospital Militar Coronel Luis Arias Schreiber
+Faustino Sanchez Carrion
+-12.086864, -77.061739
+
+Hospital Central de Policia Nacional Del Perú, Avenida Brasil Cuadra 26
+Jesús María
+-12.084458, -77.060405
+
+Clínica San Felipe, Avenida Gregorio Escobedo 612
+Jesús María
+-12.085938, -77.054320
+
+Hospital Santa Rosa, Avenida Simón Bolivar
+Pueblo Libre 15084
+-12.072413, -77.060943
+
+Clínica Centenario Peruano Japonesa, Avenida Paso de Los Andes 675
+Pueblo Libre
+-12.073043, -77.059501
+
+Hospital Edgardo Rebagliati Martins, Avenida Edgardo Rebagliati 490
+Jesús María 15072
+-12.079609, -77.040168
+
+Hospital San José, C Barriga
+Carmen De La Legua Reynoso
+-12.042749, -77.098671
+
+
+
+
+
+
+
+
