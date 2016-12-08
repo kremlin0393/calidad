@@ -1,0 +1,75 @@
+<ion-view title="Crear Cuenta" id="page12" hide-nav-bar="true" no-drag-right >
+    <ion-content padding="true" class="has-header">
+        <form name="crearCuenta" novalidate ng-submit="doRegister()">
+        <div class="list">
+            <label class="item item-input item-floating-label" ng-class="{ 'has-errors' : crearCuenta.username.$invalid, 'no-errors' : crearCuenta.username.$valid}">
+              <span class="input-label lbl">Nombres</span>
+              <input type="text" name="username" ng-model="usuario.nombre" placeholder="Nombres" required>
+            </label>
+            <div class="error-container" ng-show="crearCuenta.username.$error" ng-messages="crearCuenta.username.$error">
+            <div ng-messages-include="error-list.html"></div>
+            </div>
+            <label class="item item-input item-floating-label" ng-class="{ 'has-errors' : crearCuenta.apellido.$invalid, 'no-errors' : crearCuenta.apellido.$valid}">
+              <span class="input-label lbl">Apellidos</span>
+              <input type="text" name="apellido" ng-model="usuario.apellido" placeholder="apellido" required>
+            </label>
+            <div class="error-container" ng-show="crearCuenta.apellido.$error" ng-messages="crearCuenta.apellido.$error">
+            <div ng-messages-include="error-list.html"></div>
+            </div>
+            <label class="item item-input item-floating-label" ng-class="{ 'has-errors' : crearCuenta.direccion.$invalid, 'no-errors' : crearCuenta.direccion.$valid}">
+              <span class="input-label lbl">Direccion</span>
+              <input type="text" name="direccion" ng-model="usuario.direccion" placeholder="Direccion" required>
+            </label>
+            <div class="error-container" ng-show="crearCuenta.direccion.$error" ng-messages="crearCuenta.username.$error">
+            <div ng-messages-include="error-list.html"></div>
+            </div>
+            <label class="item item-select " id="crearCuenta-select2">
+                <span class="input-label lbl"><strong>Sexo</strong></span>
+                <select ng-model="usuario.sexo">
+                    <option value='1' selected>Masculino</option>
+                    <option value='2'>Femenino</option>
+                </select>
+            </label>
+            <label class="item item-input item-floating-label" ng-class="{ 'has-errors' : crearCuenta.correo.$invalid, 'no-errors' : crearCuenta.correo.$valid}">
+              <span class="input-label lbl">Correo</span>
+              <input type="text" name="correo" ng-model="usuario.id_usuario" placeholder="Correo" required>
+            </label>
+            <div class="error-container" ng-show="crearCuenta.correo.$error" ng-messages="crearCuenta.correo.$error">
+            <div ng-messages-include="error-list.html"></div>
+            </div>
+            <label class="item item-input item-floating-label" ng-class="{ 'has-errors' : crearCuenta.password.$invalid, 'no-errors' : crearCuenta.password.$valid}">
+              <span class="input-label lbl">Password</span>
+              <input type="text" name="password" ng-model="usuario.password" placeholder="Password" required>
+            </label>
+            <div class="error-container" ng-show="crearCuenta.password.$error" ng-messages="crearCuenta.password.$error">
+            <div ng-messages-include="error-list.html"></div>
+            </div>
+            <label class="item item-select ">
+                <span class="input-label lbl"><strong>Interes</strong></span>
+                <select ng-model="usuario.interes">
+                    <option value='1' selected >Anemia</option>
+                    <option value='2'>Diabetes</option>
+                    <option value='3'>Hipertensión</option>
+                    <option value='4'>Obesidad</option>
+                </select>
+            </label>
+        </div>
+            <button id="login-button5" type="submit" class=" button button-block button-positive button-block">Registrar</button>
+        </form>
+        <!--<button id="crearCuenta-button10" class="button button-positive  button-block">Guardar</button>-->
+    </ion-content>
+</ion-view>
+<script id="error-list.html" type="text/ng-template">  
+    <div class="error" ng-message="required">
+      <i class="ion-information-circled"></i> 
+      Este campo es Obligatorio
+    </div>
+    <div class="error" ng-message="minlength">
+      <i class="ion-information-circled"></i> 
+      Requiere minimo 8 caracteres
+    </div>
+    <div class="error" ng-message="maxlength">
+      <i class="ion-information-circled"></i> 
+      Maximum length of this field is 20 characters!
+    </div>
+  </script> 

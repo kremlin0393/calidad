@@ -1,0 +1,26 @@
+<ion-side-menus enable-menu-with-back-views="true" >
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar bar-header bar-calm">
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="side-menu21"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu21" >
+        <ion-header-bar class="bar bar-header bar-calm">
+            <div class="title">SaludApp</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-left has-header ">
+            <ion-list >
+                <a class="button  button-block  button-clear button-dark" href="#/side-menu21/perfil" menu-close="">
+                    <i class="icon ion-android-person"></i> Perfil</a>
+                <a class="button  button-block  button-clear button-dark"  href="#/side-menu21/{{ruta.rut}}" menu-close="">
+                    <i class="icon ion-android-create"></i> Registrar informacion</a>
+                <a class="button  button-block  button-clear button-dark"  href="#/side-menu21/reg_alim" menu-close="">
+                    <i class="icon ion-android-create"></i> Registrar Alimentos</a>
+                 <a href="#/side-menu21/login" menu-close="" class="button  button-block  button-clear button-dark"  data-componentid="button1" ng-click="cerrarSesion()"><i class="ion-android-exit"></i> Cerrar Sesión</a>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

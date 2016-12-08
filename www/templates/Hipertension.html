@@ -1,0 +1,27 @@
+<ion-view title="Hipertension" id="page14" enable-menu-with-back-views="true">
+    <ion-content padding="true" class="has-header">
+        <form id="Hipertension-form5" ng-submit="enviar()" class="list">
+            <label class="item item-input" id="Hipertension-input3">
+                <span class="input-label">Presion Sistolica</span>
+                <input type="text" ng-model="form.ps" placeholder="en mmHg">
+            </label>
+            <label class="item item-input" id="Hipertension-input4">
+                <span class="input-label">Presion Diastolica</span>
+                <input type="text" ng-model="form.pd" placeholder="en mmHg">
+            </label>
+            <label class="item item-input" id="Hipertension-input4">
+                <span class="input-label">edad</span>
+                <input type="text" ng-model="form.edad" placeholder="en años">
+            </label>
+            <label class="item item-select" id="Hipertension-select1">
+                <span class="input-label">Actividad Fisica</span>
+                <select ng-model="form.actividad">
+                    <option value="S">Sedentaria</option>
+                    <option value="M">Moderna</option>
+                    <option value="I">Intensa</option>
+                </select>
+            </label>
+            <button id="Hipertension-button9" type="submit" class="button button-positive  button-block">Generar Recomendacion</button>
+        </form>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,27 @@
+<ion-view title="Obesidad" id="page13" enable-menu-with-back-views="true">
+    <ion-content padding="true" class="has-header">
+<form  class="list" ng-submit="doForm()">
+    <label class="item item-input" id="vidaSana-input3">
+        <span class="input-label">Altura</span>
+        <input type="text" ng-model="form.altura" placeholder="en metros">
+    </label>
+    <label class="item item-input" id="vidaSana-input4">
+        <span class="input-label">Edad</span>
+        <input type="text" ng-model="form.edad" placeholder="En años">
+    </label>
+    <label class="item item-input" id="vidaSana-input5">
+        <span class="input-label">Peso</span>
+        <input type="text" ng-model="form.peso" placeholder="en Kilogramos">
+    </label>
+    <label class="item item-select" id="vidaSana-select1">
+        <span class="input-label">Sexo</span>
+        <select ng-model="form.sexo">
+          <option value="H">Hombre</option>
+          <option value="M">Mujer</option>
+        </select>
+    </label>
+    <button id="login-button5" type="submit" class="button button-block button-positive" >
+    Calcular Peso Ideal</button>
+</form>
+</ion-content>
+</ion-view>

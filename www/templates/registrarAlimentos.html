@@ -1,0 +1,26 @@
+<ion-view title="Registrar Alimentos" id="page5">
+    <ion-content padding="true" class="has-header">
+      <form name="registrar_alimentos" novalidate="" ng-submit="registrar()"> 
+       <div class="list">
+          <label class="item item-select ">
+            <span class="input-label lbl"><strong>Alimento</strong></span>
+              <select ng-model="alimento.codigo">
+                <option ng-repeat="item in listaAlimentos" value='{{item.codigo_de_barra}}' ng-click="obtener({{item.id_alimento}})">{{item.nombre}}</option>
+              </select>
+          </label>
+          <label class="item item-select ">
+            <span class="input-label lbl"><strong>Cantidades</strong></span>
+              <select ng-model="alimento.cantidad">
+                <option value='1'>100 gr/ml</option>
+                <option value='2'>200 gr/ml</option>
+                <option value='3'>300 gr/ml</option>
+                <option value='4'>400 gr/ml</option>
+                <option value='5'>500 gr/ml</option>
+                <option value='10'>1000 gr/ml</option>
+              </select>
+          </label>
+       </div> 
+       <button class="button button-full button-positive" type="submit">guardar</button>     
+      </form>   
+    </ion-content>
+</ion-view>
